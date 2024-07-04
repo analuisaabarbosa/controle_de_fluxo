@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Contador {
     public static void main(String[] args) {
-
         Scanner terminal = new Scanner(System.in);
 
         System.out.println("Digite o primeiro número: ");
@@ -26,7 +25,6 @@ public class Contador {
     }
 
     static void contar(int primeiroParametro, int segundoParametro) throws ParametrosInvalidosException{
-
         int contagem = segundoParametro - primeiroParametro;
         for(int i = 1; i <= contagem; i++){
             System.out.println("Imprimindo números: " + i);
